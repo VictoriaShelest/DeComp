@@ -1,11 +1,14 @@
 # After Effects project & test files
 *.aep
 *.aepx
-/ae/
-/Adobe After Effects Auto-Save/
+Adobe After Effects Auto-Save/
+
+# Effects presets
+*.ffx
 
 # Renders / heavy media
 /renders/
+/ae/
 *.mp4
 *.mov
 
@@ -22,14 +25,12 @@ desktop.ini
 
 # Editor & temp files
 .vscode/
-/.git/
 /old checkpoints/
+/archives/
 /archive/
+/.git/
 *.log
 *.tmp
 
 # Claude Code local state
 .claude/
-
-# Local planning & notes
-TODO.md
